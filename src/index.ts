@@ -26,6 +26,7 @@ let str: string = 'Hello World';
 // str = 6; // This would error out, in Typescript variables are born with their types
 
 let num: number = 6;
+let num2: number = 7;
 
 function logString(s: string) {
     console.log(s);
@@ -33,4 +34,10 @@ function logString(s: string) {
 
 logString(str);
 // logString(num); // This will error out because the function logString requires a parameter that must be a string
+
+function addNums(n: number, m: number): number { // declaration of a return type. If the return was not a number, would error out in the compiler
+    return n + m;
+}
+
+console.log(addNums(num, num2));
 

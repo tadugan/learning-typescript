@@ -27,8 +27,13 @@ exports.addNumbers = addNumbers;
 let str = 'Hello World';
 // str = 6; // This would error out, in Typescript variables are born with their types
 let num = 6;
+let num2 = 7;
 function logString(s) {
     console.log(s);
 }
 logString(str);
 // logString(num); // This will error out because the function logString requires a parameter that must be a string
+function addNums(n, m) {
+    return n + m;
+}
+console.log(addNums(num, num2));

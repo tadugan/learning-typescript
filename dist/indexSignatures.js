@@ -1,0 +1,2 @@
+const phones = {};
+phones.fax;
