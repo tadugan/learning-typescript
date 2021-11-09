@@ -11,11 +11,11 @@ printContactInfo(tim);
 function printUserInfo(info) {
     info.name;
 }
-class Dog {
-    bark() {
-        return "woof";
-    }
-    eat(food) {
-        console.log('tasty');
-    }
+function feed(animal) {
+    animal.eat;
+    animal.isAlive;
+}
+const val = [3, 4, [5, 6, [7], 59], 221];
+if (typeof val !== "number") {
+    val.push(41);
 }
