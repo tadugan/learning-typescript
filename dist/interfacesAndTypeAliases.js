@@ -8,4 +8,14 @@ function printContactInfo(info) {
 const tim = { email: 'tim@email.com', name: 'Tim', color: 'red' };
 printContactInfo({ email: 'tim@email.com', name: 'Tim' });
 printContactInfo(tim);
-// Interfaces
+function printUserInfo(info) {
+    info.name;
+}
+class Dog {
+    bark() {
+        return "woof";
+    }
+    eat(food) {
+        console.log('tasty');
+    }
+}
