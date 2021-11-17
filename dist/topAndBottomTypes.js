@@ -21,6 +21,11 @@
 //       console.log("dragging something")
 //     }
 // }
+// class Boat {
+//     isFloating() {
+//       return true
+//     }
+// }
 // type Vehicle = Truck | Car
 // let myVehicle: Vehicle = obtainRandomVehicle()
 // // The exhaustive conditional
@@ -30,5 +35,5 @@
 // myVehicle.drive() // Car
 // } else {
 // // NEITHER!
-// const neverValue: never = myVehicle
+// const neverValue: never = myVehicle // IF you reach this point in the code, it shows that the value given could be something other than never
 // }
